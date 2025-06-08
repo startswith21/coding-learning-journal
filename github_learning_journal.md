@@ -1,4 +1,4 @@
-# Bite-sized coding wisdom learned the hard way
+# Bite-sized coding "wisdom" learned the hard way
 
 
 ## Set Git to use macOS Keychain to remember Token and avoid entering it every time:
@@ -66,12 +66,16 @@ git config --global --list
 
 
 ## Cheat sheet for basic Git commands:
-Action	             Command
-Check status	     git status
-Add all changes	     git add .
-Add specific file	 git add filename.py
-Commit changes	     git commit -m "Describe changes"
-View history	     git log
-Short log	         git log --oneline
-Push changes	     git push
-Pull latest changes	 git pull
+
+| Action                       | Command                           | 
+|:-----------------------------|:---------------------------------:|
+| Check status                 | git status                        | 
+| Add everything in the folder | git add .                         |
+| Add specific file            | git add file name and extension   | 
+| Commit changes               | git commit -m "Describe changes"  |
+| View history                 | git log                           | 
+| Short log                    | git log --online                 |
+| Push changes                 | git push                          | 
+| Pull latest changes          | git pull                         |
+
+ 
